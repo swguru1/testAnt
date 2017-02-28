@@ -20,7 +20,7 @@ public class NewTest {
 		public void testEasy() {	
 			driver.get("http://www.google.com");  
 			String title = driver.getTitle();				 
-			Assert.assertTrue(title.contains("Google")); 		
+			Assert.assertTrue(title.contains("Google123")); 		
 		}	
 			
 		@AfterTest
